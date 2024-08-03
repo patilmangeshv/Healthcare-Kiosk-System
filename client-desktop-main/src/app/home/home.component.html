@@ -1,0 +1,70 @@
+<h1 i18n class="text-center txt-shadow-red mt-5 mb-5">Please take your choice</h1>
+<div class="row mt-5">
+    <!-- Row 1 -->
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('take-appointment')" routerLinkActive="active" class="btn btn-success btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail" src="assets/images/Take appointment.png" style="width: 1cm;height: 1cm;float: left;" alt="Have appointment"> Take appointment
+        </a>
+    </div>
+
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('have-appointment')" routerLinkActive="active" class="btn btn-success btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail img-a" src="assets/images/Have Appointment.png" style="width: 1cm;height: 1cm;float: left;" alt="Have appointment"> Have appointment
+        </a>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <!-- Row 2 -->
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('info')" routerLinkActive="active" class="btn btn-success btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail" src="assets/images/Information.png" style="width: 1cm;height: 1cm;float: left;" alt="Have appointment"> Information
+        </a>
+    </div>
+
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('payment')" routerLinkActive="active" class="btn btn-success btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail" src="assets/images/Payment desk.png" style="width: 1cm;height: 1cm;float: left;" alt="Payment desk/Handle case"> Payment desk / Handle case
+        </a>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <!-- Row 3 -->
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('results')" routerLinkActive="active" class="btn btn-success btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail" src="assets/images/Recover results.png" style="width: 1cm;height: 1cm;float: left;" alt="Have appointment"> Recover results
+        </a>
+    </div>
+
+    <div class="col text-center">
+        <a i18n (click)="onOptionSelect('emergency')" routerLinkActive="active" class="btn btn-danger btn-block btn-menu-options btn-txt-color-white">
+            <img class="img-thumbnail" src="assets/images/Emergency.png" style="width: 1cm;height: 1cm;float: left;" alt="Have appointment"> Emergency
+        </a>
+    </div>
+</div>
+
+<!-- 
+<div class="row" >
+    <div class="col text-center">
+        <a href="/fr" class="btn btn-success btn-block btn-menu-options-main btn-txt-color-white">
+      Français
+    </a>
+    </div>
+
+    <div class="col text-center">
+        <a href="/ar" class="btn btn-success btn-block btn-menu-options-main btn-txt-color-white">
+      عـــــــــــــــربي
+    </a>
+    </div>
+</div> -->
+
+<!-- Back button -->
+
+<a href="/fr" class="btn btn-success btn-block btn-menu-options-main btn-txt-color-white" style="position: absolute;width: 10cm; height: 2cm; bottom:40px; left: 200px; margin: 0; padding: 5px 3px;">
+    Français
+</a>
+
+<a href="/ar" class="btn btn-success btn-block btn-menu-options-main btn-txt-color-white" style="position: absolute;width:10cm; height: 2cm; bottom:40px; right: 200px; margin: 0; padding: 5px 3px;">
+    عـــــــــــــــربي
+</a>

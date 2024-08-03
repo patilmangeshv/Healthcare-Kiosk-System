@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <script>
+    let userLang = navigator.language || navigator.userLanguage; 
+    console.log('userLang:' + userLang);
+    if (userLang != null && typeof userLang !== undefined && userLang.includes('fr')) {
+        userLang = 'fr';
+    } else {
+        userLang = 'ar';
+    }
+    window.location.href = window.location.href + '/' + userLang;
+</script>
+<head>
+  <meta charset="utf-8">
+  <title>Healthcare - Kiosk management system</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+</body>
+</html>

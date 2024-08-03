@@ -1,0 +1,5 @@
+{
+    "appId": "client-kiosk",
+    "apiBaseURI": "https://localhost:5001/api/",
+    "kioskHomeURI": "https://localhost:4205/"
+}

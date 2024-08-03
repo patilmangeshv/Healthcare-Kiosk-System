@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5539379555691300453" datatype="html">
+        <source>Please collect your ticket from the Terminal, go to the corresponding queue. </source>
+        <target>Veuillez retirer votre ticket de la Borne, lisez attentivement les informations, Dirigez-vous vers la file d’attente correspondante. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/coupon-collect-screen/coupon-collect-screen.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5757848891267707714" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Exit.png&quot; style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Exit&quot;&gt;"/> Exit </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Exit.png&quot; style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Exit&quot;&gt;"/> Quitter </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/coupon-collect-screen/coupon-collect-screen.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="950511418286319389" datatype="html">
+        <source>Please take your choice</source>
+        <target>Veuillez choisir une option…</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7121624624839628723" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Have Appointment.png&quot;
+                style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;I have my yellow card&quot;&gt;"/> I have my yellow card </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Have Appointment.png&quot;
+                style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;I have my yellow card&quot;&gt;"/> J'AI UNE FICHE DE CONSULTATION </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="489329581796981299" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail img-a&quot; src=&quot;assets/images/Take appointment.png&quot;
+                style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Yellow form request&quot;&gt;"/> Yellow form request </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail img-a&quot; src=&quot;assets/images/Take appointment.png&quot;
+                style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Yellow form request&quot;&gt;"/> DEMANDE FICHE DE CONSULTATION </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6255410102375171871" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Payment desk.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot;
+                alt=&quot;Payment desk/Handle case&quot;&gt;"/> Payment desk / Handle case </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Payment desk.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot;
+                alt=&quot;Payment desk/Handle case&quot;&gt;"/> CACHET DE CAISSE / PRISE EN CHARGE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7762903099489971651" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Emergency.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot;
+                alt=&quot;Infomration&quot;&gt;"/> Information Emergency </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Emergency.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot;
+                alt=&quot;Infomration&quot;&gt;"/> INFORMATION URGENCE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">37,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9145710906589488901" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Exit.png&quot;
+        style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Exit&quot;&gt;"/> Exit
+</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Exit.png&quot;
+        style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Exit&quot;&gt;"/> Quitter
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">47,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8130473121316756770" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Back.png&quot;
+        style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Back&quot;&gt;"/> Back
+</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Back.png&quot;
+        style=&quot;width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;&quot; alt=&quot;Back&quot;&gt;"/> Retour
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/emergency-menu/emergency-menu.component.html</context>
+          <context context-type="linenumber">54,57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9025072915120662030" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Take appointment.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> Take appointment </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Take appointment.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> PRENDRE RENDEZ-VOUS </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="660282369580129571" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail img-a&quot; src=&quot;assets/images/Have Appointment.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> Have appointment </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail img-a&quot; src=&quot;assets/images/Have Appointment.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> J'AI UN RENDEZ-VOUS </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1038949200743329695" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Information.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> Information </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Information.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> IMPRIMER MON CODE À BARRE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5500812630446443399" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Recover results.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> Recover results </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Recover results.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> RÉCUPÉRER RÉSULTAT/RDV RADIOLOGIE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8570545441354438427" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Emergency.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> Emergency </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;img-thumbnail&quot; src=&quot;assets/images/Emergency.png&quot; style=&quot;width: 1cm;height: 1cm;float: left;&quot; alt=&quot;Have appointment&quot;&gt;"/> URGENCES/MEDICO-CHIRURGICALES </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/kiosk/components/menu/menu.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

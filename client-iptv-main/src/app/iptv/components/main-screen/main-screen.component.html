@@ -1,0 +1,81 @@
+<div class="row row-full-height">
+    <!-- left panel -->
+    <div class="col-7 left-panel">
+        <!-- admin message panel -->
+        <div class="row admin-msg-row border-l-t-r">
+            <div class="col">
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <marquee #fileSelect id="fileSelect" style="font-size: larger;font-weight: 800;" class="mt-2"> {{adminMessage}} </marquee>
+                    </div>
+                    <div class="col">
+                        <input type="file" #fileElement id="fileElement" multiple accept="video/*" (change)="fileChangeListener($event)" style="display:none">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- video panel -->
+        <div class="row video-panel">
+            <div class="col no-padding">
+                <video class="embed-responsive-item" [src]="videoSrc[0]" #video0 id="video0" controls preload autoplay></video>
+                <video class="embed-responsive-item" [src]="videoSrc[1]" #video1 id="video1" controls preload autoplay></video>
+                <video class="embed-responsive-item" [src]="videoSrc[2]" #video2 id="video2" controls preload autoplay></video>
+                <video class="embed-responsive-item" [src]="videoSrc[3]" #video3 id="video3" controls preload autoplay></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- QMS panel -->
+    <div class="col qms-panel">
+        <!-- QMS header panel-->
+        <div class="row qms-panel-header border-l-t-r">
+            <!-- NEW -->
+
+            <div class="col">
+                <div class="row">
+                    <div class="col-md-9 mt-1">
+                        <p class="mb-2 mr-5" style="font-family: 'Times New Roman';font-size: x-large;font-weight:bold;text-align: center;">
+                            {{hospitalNameFR}}</p>
+                        <p class="mb-2 mr-5" style="font-family: 'Times New Roman';font-size: x-large;font-weight:bold;text-align: center;">
+                            {{hospitalNameAR}}</p>
+                        <label style="font-size: large; font-weight: bold;" for="">{{systemDate | date :'dd/MM/yyyy HH:mm'}}</label><br>
+                        <label style="font-size: large; font-weight: bold;" for="">UNITE DE CONSULTATION: {{deskCode}}</label>
+                    </div>
+                    <div class="col-md-2 text-cenetr mt-1"><img src="./assets/logo/hospital logo.png" width="100" alt=""></div>
+                    <div class="col">
+                        <label style="font-size: large; font-weight: bold;">SERVICE NAMES: <span *ngFor="let item of serviceNameDetails;let first = first;">
+                      <span class="mr-1 ml-1" *ngIf="!first">-</span><span> {{item}}</span> </span> </label>
+                    </div>
+                </div>
+            </div>
+            <!-- NEW -->
+
+        </div>
+        <!-- QMS detail panel -->
+        <div class="row qms-panel-detail">
+            <div class="col no-padding">
+
+                <!-- QMS dynamic panel informaion -->
+                <table class="table table-bordered">
+                    <thead class="bg-success text-white">
+                        <tr>
+                            <th scope="col-2">BOX N°</th>
+                            <th scope="col-6">SERVICE NAME</th>
+                            <th class="text-cenetr" scope="col-2"><img src="./assets/images/current.png" width="30" alt="Current coupon"></th>
+                            <th class="text-cenetr" scope="col-2"><img src="./assets/images/total.png" width="30" alt="Total coupon"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let box of _boxes">
+                            <th scope="row">{{box.boxNo}} </th>
+                            <td>{{box.serviceName}}</td>
+                            <td class="text-right">{{box.currentCoupon}}</td>
+                            <td class="text-right">{{box.totalCoupons}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

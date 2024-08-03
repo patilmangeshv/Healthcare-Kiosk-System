@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+
+.div-main-background-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('src\assets\images\kiosk-main-background.jpg');
+    background-size: 100% 100%;
+}
+
+.btn-menu-options-main {
+    border-radius: 25px;
+    /* height: 150%; */
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgb(0 0 0 / 30%);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-menu-options {
+    border-radius: 25px;
+    /* height: 150%; */
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgb(0 0 0 / 30%);
+    transition: all 0.3s ease 0s;
+}
+
+
+/* button:active {
+    box-shadow: 0px 4px 8px #0065c8;
+    transform: scale(0.98);
+  } */
+
+.txt-shadow {
+    font-size: xx-large;
+    text-shadow: 10px 5px 10px rgb(0 0 0 / 60%);
+}
+
+.txt-shadow-red {
+    font-size: xx-large;
+    text-shadow: 10px 5px 10px rgb(0 0 0 / 60%);
+    color: red;
+}
+
+.txt-shadow-arabic {
+    font-size: xxx-large;
+    text-shadow: 10px 5px 10px rgb(0 0 0 / 60%);
+    font-weight: 900;
+    font-family: adobe arabic;
+}
+
+.txt-shadow-arabic-red {
+    font-size: xxx-large;
+    text-shadow: 10px 5px 10px rgb(0 0 0 / 60%);
+    font-family: adobe arabic;
+    color: red;
+}
+
+.btn-txt-color-white {
+    color: white !important;
+}
+
+
+/* Suffix this section at the end of your styles.css for toogling between @media screen and @media print mode */
+
+
+/*############################################################################################################*/
+
+@media screen {
+    app-coupon-collect-screen {
+        /* hide the printing component from @media screen */
+        display: block;
+    }
+    app-coupon-print {
+        display: none;
+    }
+}
+
+@media print {
+    /* invert the display (show/hide) properties of the main */
+    /* aplication component and the printing component       */
+    app-coupon-collect-screen {
+        /* display: block; */
+        visibility: hidden;
+        /* z-index: 0; */
+    }
+    app-coupon-print {
+        /* display: block; */
+        visibility: visible;
+        /* z-index: -1; */
+    }
+}
+
+
+/*#############################################################################################################*/

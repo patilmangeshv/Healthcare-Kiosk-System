@@ -1,0 +1,54 @@
+<div class="row text-center mt-5">
+    <div class="col">
+        <h2 class="txt1">مرحبا بك في المستشفى العسكري النهاري
+        </h2>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row text-center">
+    <div class="col">
+        <h2 class="txt2">إختر لغـــــة المحادثـــة
+        </h2>
+    </div>
+</div>
+
+<div class="row text-center">
+    <div class="col">
+        <h2 class="txt2">Please to choose a dialogue language
+        </h2>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+    <div class="col text-center" *ngFor='let lang of languageList'>
+        <!-- <button type="button" class="btn btn-success btn-lg btn-block font-weight-bold btn-menu-options"
+            (click)="onLanguageClicked(lang.code)">
+            {{lang.label}}
+        </button> -->
+        <a class="btn btn-success btn-lg btn-block font-weight-bold btn-menu-options" (click)="onLanguageClicked(lang.code)">
+            {{lang.label}}
+        </a>
+    </div>
+
+    <!-- <div class="col text-center">
+        <button type="button" class="btn btn-success btn-lg btn-block font-weight-bold btn-menu-options">
+            English
+        </button>
+    </div>
+    <div class="col text-center">
+        <button type="button" class="btn btn-success btn-lg btn-block font-weight-bold btn-menu-options">
+            Français
+        </button>
+    </div>
+    <div class="col text-center">
+        <button type="button" class="btn btn-success btn-lg btn-block font-weight-bold btn-menu-options">
+            عـــــــــــــــربي
+        </button>
+    </div> -->
+</div>

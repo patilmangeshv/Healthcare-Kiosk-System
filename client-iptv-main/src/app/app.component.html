@@ -1,0 +1,71 @@
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
+
+<!-- <div class="container-fluid h-100 d-flex py-2">
+  <div class="row border width-100">
+    <div class="col-8 border">
+      <div class="row border m-2 bg-light">
+        <input type="file" #fileElement id="fileElement" multiple accept="video/*" (change)="fileChangeListener($event)"
+          style="display:none">
+        <button #btnFileSelect id="btnFileSelect" type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Select
+        </button>
+      </div>
+
+      <div class="row border">
+        <video class="embed-responsive-item" [src]="videoSrc[0]" #video0 id="video0" width="800" height="600" controls
+          preload autoplay></video>
+        <video class="embed-responsive-item" [src]="videoSrc[1]" #video1 id="video1" width="800" height="600" controls
+          preload autoplay></video>
+        <video class="embed-responsive-item" [src]="videoSrc[2]" #video2 id="video2" width="800" height="600" controls
+          preload autoplay></video>
+        <video class="embed-responsive-item" [src]="videoSrc[3]" #video3 id="video3" width="800" height="600" controls
+          preload autoplay></video>
+      </div>
+    </div>
+    <div class="col-4 ">
+
+    </div>
+  </div>
+</div> -->
+
+<!-- <ng-container *ngFor="let videoFile of videoFiles; let i = index">
+    <video [src]="videoFile.fileName" #video{{i}} [id]="videoFile.fileName" width="320" height="240" controls preload
+      autoplay></video>
+  </ng-container> -->
+
+<!-- <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+        versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+    </div>
+  </div> -->
+<!-- 
+  <div class="row h-100 align-items-md-stretch">
+    <div class="col-md-8">
+      <div class="h-100 p-2 text-white bg-dark rounded-3">
+        <input type="file" #fileElement id="fileElement" multiple accept="video/*" (change)="fileChangeListener($event)"
+          style="display:none">
+        <button #btnFileSelect id="btnFileSelect" type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Select
+        </button>
+
+        <ng-container *ngFor="let videoFile of videoFiles; let i = index">
+          <video [src]="videoFile.fileName" #video{{i}} [id]="videoFile.fileName" width="320" height="240" controls
+            preload autoplay></video>
+        </ng-container>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="h-100 p-2 bg-light border rounded-3">
+        <h2>Add borders</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
+          look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+          content for equal-height.</p>
+        <button class="btn btn-outline-secondary" type="button">Example button</button>
+      </div>
+    </div>
+  </div> -->

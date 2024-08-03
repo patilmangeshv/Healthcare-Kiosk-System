@@ -1,0 +1,21 @@
+<ng-container>
+    <div>
+        <app-coupon-print [couponDetails]="couponDetails"></app-coupon-print>
+    </div>
+</ng-container>
+
+<ng-container>
+    <h1 i18n class="text-center txt-shadow-red mt-5 mb-5">Please collect your ticket from the Terminal, go to the corresponding queue.
+    </h1>
+    <div class="row ">
+        <div class="col col-centered">
+            <img src="assets/images/Coupon Print.png" style="width: 5cm;height: 5cm;" alt="Collect coupon">
+        </div>
+    </div>
+
+    <!-- Exit button -->
+    <!-- <a i18n (click)="onExitClicked()" class="btn btn-dark btn-lg btn-txt-color-white" style="position: absolute;width: 3cm; bottom:15px; left: 15px; margin: 0; padding: 5px 3px;"> -->
+    <a i18n [href]="_configService.kioskHomeURI()" class="btn btn-dark btn-lg btn-txt-color-white" style="position: absolute;width: 3cm; bottom:15px; left: 15px; margin: 0; padding: 5px 3px;">
+        <img class="img-thumbnail" src="assets/images/Exit.png" style="width: 0.75cm;height: 0.75cm;float: left;margin-top: 2px;margin-left: 2px;" alt="Exit"> Exit
+    </a>
+</ng-container>

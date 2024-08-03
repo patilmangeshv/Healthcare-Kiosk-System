@@ -1,0 +1,62 @@
+.left-panel {
+    min-height: 100%;
+    margin: 5px;
+}
+
+.qms-panel {
+    /* background-color: lightgray; */
+    min-height: 100%;
+    margin: 5px;
+}
+
+.border-l-t-r {
+    border-style: solid;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+.row-full-height {
+    /* These two lines are counted as one :-)*/
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.admin-msg-row {
+    background-color: burlywood;
+    min-height: 10%;
+}
+
+.video-panel {
+    background-color: chocolate;
+    min-height: 90%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+video {
+    object-fit: fill;
+    margin: 0%;
+    /* To make video size responsive */
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.qms-panel-header {
+    min-height: 30%;
+}
+
+.qms-panel-detail {
+    min-height: 70%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.table td,
+.table th {
+    font-size: x-large;
+}

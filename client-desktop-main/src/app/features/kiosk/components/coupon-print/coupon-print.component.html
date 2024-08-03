@@ -1,0 +1,68 @@
+<div class=" border text-center" style="width: 12cm;">
+    <table align="center">
+        <tbody class="">
+            <tr>
+                <td colspan="2" style="font-family: 'Times New Roman';font-size: 30px;text-align: center;">المستشفى
+                    المركزي للجيش</td>
+                <td rowspan="2" style="text-align: right;" class="ml-4"><img src="./assets/images/hospital logo.png "
+                        class="ml-5" width="80" height="80" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;font-family: 'Times New Roman';"> L’Hôpital Central de l’Armée
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">{{date | date :'dd/MM/yyyy'}} </td>
+                <td></td>
+                <td style="text-align: right;">{{date | date :'HH:mm'}}</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">TICKET N°: </td>
+                <td style="font-size: 60px;font-family: Bernard MT Condensed;font-weight:bolder;">
+                    {{ticketn}}
+                </td>
+                <td style="text-align: right;" class="txt-arabic">:رقم تذكرة</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">Etage:</td>
+                <td>{{etage}} </td>
+                <td style="text-align: right;" class="txt-arabic">:الطابق</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Axe:</td>
+                <td>{{axe}}</td>
+                <td style="text-align: right;" class="txt-arabic">:جناح</td>
+            </tr>
+            <tr style="margin-bottom: 10px !important;">
+                <td style="text-align: left;">Desk:</td>
+                <td>{{desk}}</td>
+                <td style="text-align: right;" class="txt-arabic">:و.ط.المتخصصة</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Service:</td>
+                <td>{{service}}</td>
+                <td style="text-align: right;" class="txt-arabic">:مصلحة </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Box N° :</td>
+                <td style="font-size: 35px;font-family: Bernard MT Condensed;"><strong>{{boxn}} </strong> </td>
+                <td style="text-align: right;" class="txt-arabic">:قاعة علاج</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<!-- <tr>
+
+    <td>
+        <ngx-barcode [bc-value]="barCodeValue" [bc-margin-left]='0' [bc-height]='45' [bc-display-value]="true">
+        </ngx-barcode>
+
+    </td>
+    <td></td>
+    <td></td>
+</tr> -->

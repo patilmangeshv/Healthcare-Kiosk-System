@@ -1,0 +1,126 @@
+<div style="margin-top: 0em; margin-left: -5em; margin-right: -5em;">
+    <div class="border">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <p style="font-family: adobe arabic;text-align: center; font-weight: bolder; font-size:4em;">المركز الطبي الجراحي النهاري</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p style="font-family:'Times New Roman';text-align: center; font-weight: bolder; font-size:4em;">Centre Médico-Chirurgical de Jour</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-2"><img src="./assets/images/hospital logo.png " width="120" height="120" alt=""></div> -->
+        </div>
+
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">{{couponDetails.couponGenerationDateTime | date :'dd/MM/yyyy'}}
+            </div>
+            <div class="col mr-3" style="text-align: right; font-weight: bolder; font-size:3em;">{{couponDetails.couponGenerationDateTime | date :'HH:mm'}}</div>
+        </div>
+
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">TICKET N°:</div>
+            <div class="col" style="text-align: center; font-family: Bernard MT Condensed; font-size: 7em;">
+                {{couponDetails.couponNoFormatted}}</div>
+            <div class="col mr-3" style="text-align: right; font-family: adobe arabic; font-weight: bolder; font-size:3em;">:رقم تذكرة</div>
+        </div>
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">Etage:</div>
+            <div class="col" style="text-align: center; font-weight: bolder; font-size:4em;">{{couponDetails.floor}}</div>
+            <div class="col mr-3" style="text-align: right; font-family: adobe arabic; font-weight: bolder; font-size:3em;">:الطابق</div>
+        </div>
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">Pavillon:</div>
+            <div class="col" style="text-align: center; font-weight: bolder; font-size:4em;">{{couponDetails.zone}}</div>
+            <div class="col mr-3" style="text-align: right; font-family: adobe arabic; font-weight: bolder; font-size:3em;">:جناح</div>
+        </div>
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">UMS Desk:</div>
+            <div class="col" style="text-align: center; font-weight: bolder; font-size:4em;">{{couponDetails.deskCode}}</div>
+            <div class="col mr-3" style="text-align: right; font-family: adobe arabic; font-weight: bolder; font-size:3em;">:و.ط.المتخصصة</div>
+        </div>
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">Spécialité:</div>
+            <div class="col" style="text-align: center; font-weight: bolder; font-size:4em;">{{couponDetails.subServiceCode || couponDetails.serviceCode}}
+            </div>
+            <div class="col mr-3" style="text-align: right;font-family: adobe arabic; font-weight: bolder; font-size:3em;">:تخصص</div>
+        </div>
+        <!-- <div class="row" *ngIf="couponDetails.boxNo"> -->
+        <div class="row">
+            <div class="col ml-3" style="text-align: left; font-weight: bolder; font-size:3em;">Box N°:</div>
+            <div class="col" style="text-align: center; font-family: Bernard MT Condensed; font-weight: bolder; font-size: 5em;">
+                <strong>A11</strong></div>
+            <!-- {{couponDetails.boxNo}} -->
+            <div class="col mr-3" style="text-align: right; font-family: adobe arabic; font-weight: bolder; font-size:3em;">:قاعة علاج</div>
+        </div>
+    </div>
+
+    <!-- <table class="table border">
+        <tbody style="padding: 100em;">
+            <tr>
+                <td colspan="2" style="font-family:'Times New Roman';text-align: center; font-size: xx-large;">المستشفى المركزي للجيش</td>
+                <td rowspan="2" style="text-align: right;" class="ml-4"><img src="./assets/images/hospital logo.png " class="ml-5" width="120" height="120" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;font-family: 'Times New Roman';"> L’Hôpital Central de l’Armée
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">{{couponDetails.couponGenerationDateTime| date :'dd/MM/yyyy'}} </td>
+                <td></td>
+                <td style="text-align: right;">{{couponDetails.couponGenerationDateTime | date :'HH:mm'}}</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">TICKET N°: </td>
+                <td style="font-family: Bernard MT Condensed;font-weight:bolder;">
+                    {{couponDetails.couponNoFormatted}}
+                </td>
+                <td style="text-align: right;" class="txt-arabic">:رقم تذكرة</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">Etage:</td>
+                <td>{{couponDetails.floor}} </td>
+                <td style="text-align: right;" class="txt-arabic">:الطابق</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Pavillon:</td>
+                <td>{{couponDetails.zone}}</td>
+                <td style="text-align: right;" class="txt-arabic">:جناح</td>
+            </tr>
+            <tr style="margin-bottom: 10px !important;">
+                <td style="text-align: left;">Desk:</td>
+                <td>{{couponDetails.deskCode}}</td>
+                <td style="text-align: right;" class="txt-arabic">:و.ط.المتخصصة</td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">Service:</td>
+                <td>{{couponDetails.subServiceCode || couponDetails.serviceCode}}</td>
+                <td style="text-align: right;" class="txt-arabic">:مصلحة </td>
+            </tr>
+            <tr *ngIf="couponDetails.boxNo">
+                <td style="text-align: left;">Box N° :</td>
+                <td style="font-family: Bernard MT Condensed;"><strong>{{couponDetails.boxNo}} </strong> </td>
+                <td style="text-align: right;" class="txt-arabic">:قاعة علاج</td>
+            </tr>
+
+        </tbody>
+    </table> -->
+</div>
+
+
+<!-- <tr>
+
+    <td>
+        <ngx-barcode [bc-value]="barCodeValue" [bc-margin-left]='0' [bc-height]='45' [bc-display-value]="true">
+        </ngx-barcode>
+
+    </td>
+    <td></td>
+    <td></td>
+</tr> -->
